@@ -7,10 +7,7 @@ This repository contains a Python script for preprocessing a Brain Tumor MRI dat
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [Dataset Structure](#dataset-structure)
 - [Results](#results)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -36,20 +33,6 @@ This script performs the preprocessing of a Brain Tumor MRI dataset by identifyi
 
 python preprocess.py
 
-## Dataset Structure
-
-Your dataset should be organized in the following structure:
-
-Dataset_Root_Folder/
-├── Patient1/
-│   ├── Patient1_Registered_Flair.nii
-│   ├── Patient1_Registered_T1CE.nii
-│   └── Patient1.seg.nii
-├── Patient2/
-│   ├── Patient2_Registered_Flair.nii
-│   ├── Patient2_Registered_T1CE.nii
-│   └── Patient2.seg.nii
-└── ...
 
 ## Results
 
