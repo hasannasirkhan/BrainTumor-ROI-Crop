@@ -5,8 +5,8 @@ import numpy as np
 
 def main():
     # Paths to dataset folders
-    dataset_path = "C:\\AKU_Project\\Dataset\\Raw_AKU\\"
-    output_folder = "C:\\AKU_Project\\Dataset\\Cropped_Volumes\\"
+    dataset_path = "C:\\Project1\\Dataset\\Raw_AKU\\"
+    output_folder = "C:\\Project1\\Dataset\\Cropped_Volumes\\"
     
     # Create the output folder if it doesn't exist
     os.makedirs(output_folder, exist_ok=True)
